@@ -8,8 +8,10 @@ using namespace std;
 // This code is designed to approximate the square root of 2.
 // Remember that the square root of 2 is simply the number that square to 2.
 double square(int x){
-    cout << x*x;
-    return 0;
+    //Don't cout the square of the number, instead assign it to a value.
+    double y = x*x;
+    //return that value to continure the code
+    return y;
 }
 double lowApprox = 1;
 double highApprox = 2;
